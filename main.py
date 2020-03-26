@@ -36,7 +36,7 @@ if d > 0:
     print("La segunda solución es: " + str(x2))
 else:
     if d==0:
-        x = -b/2*a
-        print("x1 y x2 son iguales y corresponden a: " + str(x))
+        x1 = -b/2*a
+        print("x1 y x2 son iguales y corresponden a: " + str(x1))
     else:
         print("No existe solución.")
